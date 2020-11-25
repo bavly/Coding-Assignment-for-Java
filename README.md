@@ -16,4 +16,9 @@ I have created sample of the log file there & saved it in path c://logs/logfile.
 {"id":"scsmbstgrc", "state":"STARTED", "timestamp":1491377495210}
 {"id":"scsmbstgrb", "state":"FINISHED", "timestamp":1491377495216}
 
-I think that all.
+for threading of reading the file will do it, but threading in Database with reading the file not correct.
+
+for reading large file effeciently, I have followed this link
+
+https://www.baeldung.com/java-read-lines-large-file
+
